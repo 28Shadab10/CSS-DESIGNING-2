@@ -1,96 +1,69 @@
-/* header section */
-ul li{
-    list-style-type: none;
-    margin: 0px 30px;
+/* header  */
+.wrapper {
+  margin: 50px;
 }
-ul{
-    display: flex;
-    
+.header {
+  padding-bottom: 50px;
 }
-ul:hover{
-    color: brown;
+.header__logo {
+  display: inline;
+  width: 70%;
 }
-/* content part */
-.content{
-    background-color: rgb(214, 205, 205);
-    padding: 30px 10px 20px 10px;
-    margin:80px 40px 20px 40px;
+.header__links ul {
+  list-style-type: none;
+  display: flex;
 }
-.content__button{
-    margin: 5px;
-    padding: 5px 10px;
-    background-color: rgb(214, 205, 205);
-    border-color: black;
-}
-.content__button:hover{
-background-color: blueviolet;
+.header__links ul li {
+  padding-right: 50px;
 }
 
 /* section part */
-
-.section__heading{
-    text-align: center;
-    padding-left: 300px;
+.content {
+  width: 95%;
+  background-color: #e3dbdb;
+  display: block;
+  padding: 40px 20px;
 }
-.section{
-    display: flex;
+.content__para {
+  width: 30%;
 }
-.second__container{
-    display: flex;
+.first-content__heading {
+  width: 29%;
+  display: inline;
+  float: left;
+  padding: 20px 20px;
+  text-align: center;
 }
-
-.section__content__para{
-    margin: 20px 0px;
-    padding-left: 240px;
+.second-content__empty {
+  background-color: #e3dbdb;
+  padding: 3em 4em;
+  margin-top: 20px 20px;
+  align-content: center;
 }
-
-.third__container{
-    display: flex;
+/* footer */
+.first__footer {
+  display: flex;
+  background-color: #e3dbdb;
+  margin: 80px 0px 20px 50px;
+  width: 68%;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding-left: 400px;
 }
-.section__content__para2{
-    
-    list-style-type: none;
-   
+.text__box {
+  margin: 20px 50px;
+  padding-top: 10px;
 }
-.section__content__para2 li{
-    padding-left: 250px;
+.first__footer-button {
+  background-color: rgb(13, 137, 231);
+  margin: 20px 30px;
+  padding: 0px 50px 0px 50px;
+  color: white;
+  border-color: rgb(13, 137, 231);
 }
-.section__content__para2:hover{
-    color: brown;
+.left-footer__content {
+  float: left;
 }
-
-/* footer section */
-.footer__content{
-    display: flex;
-    background-color: rgb(214, 205, 205);
-    margin:80px 40px 20px 40px;
+.right-footer__content {
+  float: right;
 }
-.heading__footer{
-    padding-left: 300px;
- 
- }
-.text__box{
-    margin: 20px 50px;
-    padding-top: 10px ;
-}
-.submit__button__content{
-    background-color: rgb(13, 137, 231);
-    margin: 20px 30px;
-    padding: 0px 50px 0px 50px;
-    color: white;
-    border-color:  rgb(13, 137, 231);
-}
-.submit__button__content:hover{
-    background-color: greenyellow;
-    color: black;
-}
-.Small__content1{
-    float: left;
-}
-.Small__content2{
-     float: right;
-}
-
-
-
-
